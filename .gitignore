@@ -1,0 +1,40 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*env/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Data (keep big/raw data out of Git)
+data/
+*.csv
+*.parquet
+*.feather
+*.h5
+
+# Results you don't want in Git (keep images)
+results/*.csv
+results/*.json
+results/*.html
+
+# Secrets / environment files
+.env
+.env.*
+*.key
+*.pem
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
